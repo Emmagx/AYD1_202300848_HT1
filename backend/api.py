@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/cancion")
 def get_cancion():
-    return {"cancion": "Enamorado tuyo - Cuarteto de Nos"}
+    return {"album": "Porfiado- Cuarteto de Nos"}
