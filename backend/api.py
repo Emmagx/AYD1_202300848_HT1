@@ -9,3 +9,7 @@ def get_cancion():
 @app.get("/album")
 def get_album():
     return {"cancion": "Inverno del 92 - Cuarteto de nos"}
+
+@app.get("/artista")
+def get_artista():
+    return {"cancion": "Cuarteto de nos"}
